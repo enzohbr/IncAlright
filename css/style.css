@@ -10,13 +10,13 @@ body {
             padding: 1rem 0;
             text-align: center;
         }
-        .manga-list {
+        manga-list {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             margin: 2rem;
         }
-        .manga-item {
+        manga-item {
             background: white;
             border: 1px solid #ddd;
             border-radius: 5px;
@@ -26,11 +26,11 @@ body {
             text-align: center;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .manga-item img {
+        manga-item img {
             max-width: 100%;
             border-radius: 5px;
         }
-        .manga-item h3 {
+        manga-item h3 {
             font-size: 1.2rem;
             margin: 0.5rem 0;
         }
