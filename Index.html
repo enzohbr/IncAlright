@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Adicione as capas de mangás na pasta do projeto e atualize os caminhos das imagens no código -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mangás/Manhwa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .manga-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem;
+        }
+        .manga-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 1rem;
+            padding: 1rem;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .manga-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .manga-item h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de Mangás/Manhwa</h1>
+    </header>
+    <main>
+        <section class="manga-list">
+            <div class="manga-item">
+                <img src="Sousou no Frieren.png" alt="Manga 1">
+                <h3>Sousou no Frieren</h3>
+                <p><a href="manga1.html">Read Now</a></p>
+            </div>
+            <div class="manga-item">
+                <img src="TBATE.png" alt="Manhwa 2">
+                <h3>The Beginning After the End</h3>
+                <p><a href="manga2.html">Read Now</a></p>
+            </div>
+            <div class="manga-item">
+                <img src="Revenge of the Baskerville BloodHound.png" alt="Manga 3">
+                <h3>Revenge of the Baskerville Bloodhound</h3>
+                <p><a href="manga3.html">Read Now</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Manga Reader. All rights reserved.</p>
+    </footer>
+</body>
+</html>
